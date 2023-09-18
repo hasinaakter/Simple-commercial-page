@@ -52,6 +52,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height:615px;
+    width: 100%;
 }
 
 
@@ -66,23 +67,11 @@
     font-size: 20px;
     line-height: 24.38px;
 }
+
 .input-group {
-    width: 50% !important;
-    /*large 100%*/
+    max-width: 882px !important;
+    margin: auto;
 }
-
-/* .bbbb{
-    background-image:url("/images/digits/01.png") ;
-    background-repeat: no-repeat;
-    background-position: top;
-} */
-
-/* .read-more{
-font-size: 9px;
-line-height: 10.97px;
-letter-spacing: 27.5%;
-color: brown;
-} */
 
 .btn-1{
     position: absolute;
@@ -172,7 +161,7 @@ color: brown;
     line-height: 19.5px;
     font-weight: 400;
     color: rgba(81, 81, 81, 1);
-    width: 801px;
+    max-width: 801px;
     margin: auto;
 }
 .services-hr{
@@ -230,4 +219,29 @@ color: brown;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+}
+
+
+.dream-house {
+    max-width: 730px;
+    margin:auto;
+    position: relative;
+}
+
+.house-rent{
+    color: rgba(96, 140, 255, 1);
+}
+
+.dream-house button{
+    position: absolute;
+    background-color:rgba(255, 63, 63, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.house-img{
+    max-width: 100%;
 }
