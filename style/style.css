@@ -224,16 +224,15 @@
 
 .dream-house {
     max-width: 730px;
-    margin:auto;
-    position: relative;
+    margin:auto; 
 }
 
 .house-rent{
     color: rgba(96, 140, 255, 1);
 }
 
-.dream-house button{
-    position: absolute;
+.dream-house button {
+    position: relative;
     background-color:rgba(255, 63, 63, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 15px;
