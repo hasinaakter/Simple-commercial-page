@@ -217,20 +217,17 @@ color: brown;
 .small-view{
     bottom: 22%;
 }
+.images {
+    position: relative;
+}
 .images button{
-    /* position: relative; */
     position: absolute;
-    top:5%;
+    top:5%; 
     left:5%;
-    background-color:rgba(181, 181, 181, 1);
+    background-color:rgba(255, 63, 63, 1);
     color: rgba(255, 255, 255, 1);
-    font-size: 12px;
+    font-size: 15px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-}
-
-.buy-sell{
-      
-
 }
