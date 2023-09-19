@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-   
+
 }
 
 .header {
@@ -39,7 +39,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.main-part{
+.main-part {
     background-color: rgba(232, 240, 255, 1);
 }
 
@@ -51,7 +51,7 @@
     background-image: url("/images/banner-image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height:615px;
+    height: 615px;
     width: 100%;
 }
 
@@ -73,32 +73,33 @@
     margin: auto;
 }
 
-.btn-1{
+.btn-1 {
     position: absolute;
-       top:2%;
-       left: 5%;
-       background-color:rgba(0, 168, 7, 1);
-       color: rgba(255, 255, 255, 1);
-       font-size: 12px;
-       cursor: pointer;
-       border-radius: 5px;
-       text-align: center;
-}
-.btn-2{
-       position: absolute;
-       top:2%;
-       right: 5%;
-       background-color:rgba(181, 181, 181, 1);
-       color: rgba(255, 255, 255, 1);
-       font-size: 12px;
-       cursor: pointer;
-       border-radius: 5px;
-       text-align: center;
+    top: 2%;
+    left: 5%;
+    background-color: rgba(0, 168, 7, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.location{
+.btn-2 {
     position: absolute;
-    bottom:30%;
+    top: 2%;
+    right: 5%;
+    background-color: rgba(181, 181, 181, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.location {
+    position: absolute;
+    bottom: 30%;
     left: 5%;
     font-size: 10px;
     line-height: 18.72px;
@@ -109,37 +110,37 @@
 }
 
 
-.rent{
-    background-color: rgb(255,255,255,1); 
+.rent {
+    background-color: rgb(255, 255, 255, 1);
 }
 
-.rent-name{
+.rent-name {
     font-weight: 500;
     font-family: inter;
     font-weight: 500;
-    line-height:24.2px;
-    font-size:20px;
+    line-height: 24.2px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 1);
 }
 
-.rent-price{
+.rent-price {
     color: rgba(132, 166, 255, 1);
     font-size: 16px;
     font-weight: 500;
     font-family: Inter;
     line-height: 24.96px;
-   
+
 }
 
-.rent-details{
+.rent-details {
     color: rgba(158, 158, 158, 1);
     font-size: 12px;
     font-weight: 500;
     font-family: Inter;
-    line-height: 18.72px;  
+    line-height: 18.72px;
 }
 
-.learn-more{
+.learn-more {
     width: 310px;
     height: 38px;
     border-radius: 5px;
@@ -164,20 +165,19 @@
     max-width: 801px;
     margin: auto;
 }
-.services-hr{
+
+.services-hr {
     border: 1px solid rgba(20, 0, 255, 1);
     width: 103px;
     margin: auto;
 }
 
-.popular-img img{
+.popular-img img {
     width: 100%;
 
 }
 
-.agency {
-    
-}
+.agency {}
 
 .property {
     font-family: Inter;
@@ -186,34 +186,38 @@
     line-height: 38.73px;
     color: rgba(0, 0, 0, 1);
 }
-.property-image{
+
+.property-image {
     /* height: 227px; */
     width: 100%;
-    
+
 }
 
-.apartment-details{
+.apartment-details {
     position: relative;
     max-width: 90%;
     margin: auto;
     bottom: 20%;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     font-size: 15px;
     line-height: 18.15px;
     font-family: Inter;
     font-weight: 600;
 }
-.small-view{
+
+.small-view {
     bottom: 22%;
 }
+
 .images {
     position: relative;
 }
-.images button{
+
+.images button {
     position: absolute;
-    top:5%; 
-    left:5%;
-    background-color:rgba(255, 63, 63, 1);
+    top: 5%;
+    left: 5%;
+    background-color: rgba(255, 63, 63, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 15px;
     cursor: pointer;
@@ -224,16 +228,16 @@
 
 .dream-house {
     max-width: 730px;
-    margin:auto; 
+    margin: auto;
 }
 
-.house-rent{
+.house-rent {
     color: rgba(96, 140, 255, 1);
 }
 
 .dream-house button {
     position: relative;
-    background-color:rgba(255, 63, 63, 1);
+    background-color: rgba(255, 63, 63, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 15px;
     cursor: pointer;
@@ -241,6 +245,42 @@
     text-align: center;
 }
 
-.house-img{
+.house-img {
     max-width: 100%;
+}
+
+/* .icon {
+    max-width: 267px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+} */
+
+.partner-company h1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.73px;
+    color: rgba(0, 0, 0, 1);
+    padding: 5px;
+}
+
+/* .all-brand {
+    align-items: center;
+    justify-content: center;
+} */
+
+.company-icon {
+    height: 60px !important;
+    width: 180px !important;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0ecec;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+}
+.company-icon img{
+    width: 80%;
+    margin: 0 auto;
+    height: 40px ;
 }
