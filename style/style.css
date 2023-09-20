@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@600&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Lilita+One&family=Montserrat:wght@600&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -279,8 +280,146 @@
     border-radius: 5px;
     border: 1px solid #dadada;
 }
-.company-icon img{
+
+.company-icon img {
     width: 80%;
     margin: 0 auto;
-    height: 40px ;
+    height: 40px;
+}
+
+.set-background {
+    background-image: url('/images/Rectangle 53.png');
+    background-repeat: no-repeat;
+    /* background-color: crimson; */
+}
+
+.best-property h2 {
+    width: 296px;
+    height: 128px;
+    line-height: 31.66px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.best-property button {
+    background-color: rgba(96, 140, 255, 1);
+    font-size: 16;
+    font-weight: 500;
+    line-height: 19.5px;
+
+}
+
+.popular-areas {
+    position: relative;
+    height: 113px;
+
+}
+
+.areas-title h3 {
+    /* width: 338px; */
+    margin: auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Inter;
+    line-height: 48.41px;
+
+}
+
+.areas-title span {
+    width: 338px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+    line-height: 16.94px;
+}
+
+.areas-title {
+    position: absolute;
+    width: 338px;
+    top: 20%;
+    left: 37%;
+}
+
+
+
+.info {
+    background-image: url("/Ellipse\ 4.png");
+    background-repeat: no-repeat;
+    height: 169px;
+    max-width:169px;
+    margin: auto;
+    position: relative;
+}
+.info img{
+ position: absolute;
+ top: 22%;
+ left:21%;
+
+}
+
+.info-text {
+    font-family: 'Dynalight', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.12px;
+    text-align: center;
+    top: 50%;
+    left:10%;
+    max-width: 130px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+}
+
+.info-area{
+    height:  193px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.feedback{
+    width: 116px;
+    height: 48px;
+    text-align: center;
+    top: 50%;
+    left:10%;
+    font-size: 20px;
+    line-height: 24.27px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    font-family: 'Dynalight', cursive;
+    font-weight: 400;
+}
+
+.comercial-blog {
+    width: 423px !important;
+    height: 123px !important;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.76px;
+    text-align: center;
+    top: 8%;
+    left: 33%;
+    position: absolute;
+}
+.happy-client {
+    padding: 5%;
+}
+.happy-client img {
+ width: 134.26px;
+ height: 134.26px;
+ margin: auto;
+}
+.happy-client p {
+ font-size: 10px;
+ line-height: 17.05px;
+ text-align: center;
+ font-weight: 600;
+ color: rgba(0, 0, 0, 1);
+}
+.happy-client h5 {
+ font-size: 15px;
+ line-height: 25.58px;
+ text-align: center;
+ font-weight: 600;
+ color: rgba(0, 0, 0, 1);
 }
