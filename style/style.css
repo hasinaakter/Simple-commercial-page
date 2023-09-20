@@ -52,7 +52,7 @@
     background-image: url("/images/banner-image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 615px;
+    height: 618px;
     width: 100%;
 }
 
@@ -347,14 +347,15 @@
     background-image: url("/Ellipse\ 4.png");
     background-repeat: no-repeat;
     height: 169px;
-    max-width:169px;
+    max-width: 169px;
     margin: auto;
     position: relative;
 }
-.info img{
- position: absolute;
- top: 22%;
- left:21%;
+
+.info img {
+    position: absolute;
+    top: 22%;
+    left: 21%;
 
 }
 
@@ -365,23 +366,23 @@
     line-height: 29.12px;
     text-align: center;
     top: 50%;
-    left:10%;
+    left: 10%;
     max-width: 130px;
     color: rgba(0, 0, 0, 1);
     position: absolute;
 }
 
-.info-area{
-    height:  193px;
+.info-area {
+    height: 193px;
     background: rgba(255, 255, 255, 1);
 }
 
-.feedback{
+.feedback {
     width: 116px;
     height: 48px;
     text-align: center;
     top: 50%;
-    left:10%;
+    left: 10%;
     font-size: 20px;
     line-height: 24.27px;
     color: rgba(0, 0, 0, 1);
@@ -401,25 +402,86 @@
     left: 33%;
     position: absolute;
 }
+
 .happy-client {
     padding: 5%;
 }
+
 .happy-client img {
- width: 134.26px;
- height: 134.26px;
- margin: auto;
+    width: 134.26px;
+    height: 134.26px;
+    margin: auto;
 }
+
 .happy-client p {
- font-size: 10px;
- line-height: 17.05px;
- text-align: center;
- font-weight: 600;
- color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    line-height: 17.05px;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
 }
+
 .happy-client h5 {
- font-size: 15px;
- line-height: 25.58px;
- text-align: center;
- font-weight: 600;
- color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    line-height: 25.58px;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+
+.contact-section {
+    background: linear-gradient(rgba(61, 96, 136, 1), rgba(149, 184, 212, 1));
+}
+
+.contact-us h2 {
+    font-size: 40px;
+    line-height: 68.21px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-us p {
+    font-size: 15px;
+    line-height: 25.58px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-logo a img {
+    margin-right: 25px;
+    height: 32px;
+    width: 35px;
+}
+
+.footer-class {
+    background: rgba(57, 8, 8, 0.856);
+}
+
+
+
+.footer-text {
+    margin: 5px;
+    padding: 5px;
+
+
+}
+
+.footer-text p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.end-text p {
+    font-size: 12px;
+    line-height: 17.05px;
+    text-align: center;
+    font-weight: 600;
+
 }
