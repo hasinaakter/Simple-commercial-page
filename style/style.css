@@ -148,14 +148,42 @@
     background-color: rgba(255, 147, 147, 1);
 }
 
-/* .services {
-    font-weight: 600;
-} */
-
-.explore {
+.explore-agency{
     background: #fff;
     height: 251px;
     width: 303px;
+    margin:auto;
+    position: relative;
+}
+
+.explore{
+    top:46%;
+    left:33%;
+    position: absolute;
+}
+.explore p{
+    font-size: 10px;
+    line-height: 12.19px;
+    font-weight: 700;
+    margin: 0;
+}
+.explore h4{
+    font-size: 20px;
+    line-height: 24.38px;
+    font-weight: 700;
+}
+.read-more {
+    left:37%;
+    bottom: 3%;
+    position: absolute;
+}
+
+.read-more a{
+ letter-spacing: 2px;
+ line-height: 10.97px;
+ font-size: 9px;
+ font-weight: 600;
+ color: rgba(0, 0, 0, 1);
 }
 
 .service-details {
@@ -178,7 +206,43 @@
 
 }
 
-.agency {}
+.agency {
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.detroit-area {
+    top: 50%;
+    left: 29%;
+    position: absolute;
+    width: 358px;
+    margin: auto;
+}
+
+.estate-agents {
+    top: 50%;
+    left: 29%;
+    position: absolute;
+    width: 571px;
+    margin: auto;
+
+}
+
+.agency p {
+    font-size: 16px;
+    line-height: 21.98px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+}
+
+.agency h4 {
+    font-size: 40px;
+    line-height: 54.96px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
 
 .property {
     font-family: Inter;
@@ -189,7 +253,6 @@
 }
 
 .property-image {
-    /* height: 227px; */
     width: 100%;
 
 }
@@ -405,6 +468,11 @@
 
 .happy-client {
     padding: 5%;
+}
+
+.happy-client:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .happy-client img {
