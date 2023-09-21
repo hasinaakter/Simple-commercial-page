@@ -148,42 +148,45 @@
     background-color: rgba(255, 147, 147, 1);
 }
 
-.explore-agency{
+.explore-agency {
     background: #fff;
     height: 251px;
     width: 303px;
-    margin:auto;
+    margin: auto;
     position: relative;
 }
 
-.explore{
-    top:46%;
-    left:33%;
+.explore {
+    top: 46%;
+    left: 33%;
     position: absolute;
 }
-.explore p{
+
+.explore p {
     font-size: 10px;
     line-height: 12.19px;
     font-weight: 700;
     margin: 0;
 }
-.explore h4{
+
+.explore h4 {
     font-size: 20px;
     line-height: 24.38px;
     font-weight: 700;
 }
+
 .read-more {
-    left:37%;
+    left: 37%;
     bottom: 3%;
     position: absolute;
 }
 
-.read-more a{
- letter-spacing: 2px;
- line-height: 10.97px;
- font-size: 9px;
- font-weight: 600;
- color: rgba(0, 0, 0, 1);
+.read-more a {
+    letter-spacing: 2px;
+    line-height: 10.97px;
+    font-size: 9px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
 }
 
 .service-details {
