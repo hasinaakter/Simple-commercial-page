@@ -549,7 +549,13 @@
     font-weight: 600;
 }
 
-
+.login-form{
+    width: 450px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid rgb(138, 137, 137);
+    border-radius: 5px;
+}
 
 @media only screen and (max-width: 600px){
     .contact-section{
