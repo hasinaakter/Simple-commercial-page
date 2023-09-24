@@ -628,23 +628,16 @@
     margin: auto;
 
 }
-.dream-house {
-    width: 100%;
-    margin: auto;
-}
 
-.rent p{
- width: 90%;
+.rent {
+ width: 100%;
  margin: auto;
-}
-
-.rent button{
-margin: 4%;
+ padding: 5px;
 }
 .rent img{
     width: 90%;
     margin: auto;
-}
+} 
 
 }
 
