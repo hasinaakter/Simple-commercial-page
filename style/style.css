@@ -555,6 +555,7 @@
     padding: 15px;
     border: 1px solid rgb(138, 137, 137);
     border-radius: 5px;
+    background-color: rgb(177, 177, 180);
 }
 
 @media only screen and (max-width: 600px){
@@ -686,6 +687,16 @@
     background-color: rgb(158, 156, 156);
     transition: all 0.5s;
 }
+
+.login-form{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid rgb(138, 137, 137);
+    border-radius: 5px;
+    background-color: rgb(177, 177, 180);
+}
+
 
 }
 
