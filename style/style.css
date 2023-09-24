@@ -645,9 +645,10 @@
     background-image: url("/Ellipse\ 4.png");
     background-repeat: no-repeat;
     height: 169px;
-    max-width: 16px;
-    margin: 10px;
+    width: 100%;
+    margin: auto;
     position: relative;
+    background-color: brown;
 }
 
 .info img {
