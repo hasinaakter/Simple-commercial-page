@@ -22,10 +22,8 @@
 <body>
     <header class="header">
 
- 
-
-        <div class="">
-            <div class=" container d-lg-flex d-sm-inline-flex  justify-content-between align-items-center py-3">
+        <div class="header-container">
+            <div class="container d-lg-flex d-sm-inline-flex  justify-content-between align-items-center py-3 header-part1 ">
                 <div class="logo">
                     <a href="http://"><img src="images/logo/google.png" alt="google-icon"></a>
                     <a href="http://"><img src="images/logo/instra.png" alt="instragram-icon"></a>
@@ -42,46 +40,35 @@
             </div>
             <hr>
             <nav class="container pages d-lg-flex d-sm-inline-flex justify-content-between align-items-center mt-0">
-                <div>
+                <div class="nav-icon">
                     <img src="images/logo/navieasoft-logo-(1)-(1) 1.png" alt="">
-
-                    <input id="menu-toggle" type="checkbox" />
-                    <label class='menu-button-container' for="menu-toggle">
-                    <div class='menu-button'></div>
-                  </label>
+                 <div class="menu-bar">
+                    <label class='menu-button-container' for="toggler"><i class="fa fa-bars"></i></label>
+                    <!-- <input id="toggler" type="checkbox" />    -->
+                </div>
                 
                 </div>
 
-             
 
-                <!-- <div><a href="">Home</a></div>
-                <div><a href="">Demos</a></div>
-                <div><a href="">Properties</a></div>
-                <div><a href="">Agents</a></div>
-                <div><a href="">Blogs</a></div>
-                <div> <a href="">Careers</a></div>
-                <div> <a href="">Contract Us</a></div>
-                <div> -->
-
-                    <div class="menu">
-                        <ul class=" d-lg-flex d-sm-inline-flex  justify-content-between align-items-center py-3 leanding-page">
-                            <li class="me-4"><a href="">Home</a></li>
-                            <li class="me-4"><a href="">Properties</a></li>
-                            <li class="me-4"><a href="">Demos</a></li>
-                            <li class="me-4"><a href="">Properties</a></li>
-                            <li class="me-4"><a href="">Agents</a></li>
-                            <li class="me-4"><a href="">Blogs</a></li>
-                            <li class="me-4"><a href="">Careers</a></li>
-                            <li class="me-4"><a href="">Contact Us</a></li>
-                        </ul>
-                    </div>
-                  <div>
+                <div class="menu">
+                    <ul
+                        class=" d-lg-flex d-sm-inline-flex  justify-content-between align-items-center py-3 leanding-page">
+                        <li class="me-4"><a href="">Home</a></li>
+                        <li class="me-4"><a href="">Properties</a></li>
+                        <li class="me-4"><a href="">Demos</a></li>
+                        <li class="me-4"><a href="">Properties</a></li>
+                        <li class="me-4"><a href="">Agents</a></li>
+                        <li class="me-4"><a href="">Blogs</a></li>
+                        <li class="me-4"><a href="">Careers</a></li>
+                        <li class="me-4"><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="menu-btn">
                     <a href="./login.html"> <button class="user-btn mx-3">Login</button></a>
-                    <a href="./signup.html">  <button class="user-btn">SignUp</button></a>
-                  </div>
-                </nav>
+                    <a href="./signup.html"> <button class="user-btn">SignUp</button></a>
+                </div>
+            </nav>
 
-            </div>
         </div>
 
     </header>
@@ -542,7 +529,8 @@
             <div class="">
                 <div class="row p-5 mx-2 ">
                     <div class="col">
-                        <div class="best-img"><img src="./images/partner-company/morder-realstate-house.png" alt=""></div>
+                        <div class="best-img"><img src="./images/partner-company/morder-realstate-house.png" alt="">
+                        </div>
                     </div>
 
                     <div class=" col ">
@@ -573,7 +561,7 @@
         <div class="container mt-4 agent">
             <div class="">
                 <div class="text-center popular-areas ">
-            
+
                     <div class="areas-title">
                         <span>DETROIT REAL ESTATE</span>
                         <h3 class="text-center"> POPULAR AREAS</h3>
@@ -684,46 +672,44 @@
 
         <!-- commercial blog -->
         <div class="container mt-5 popular-areas">
-                <div class="areas-title comercial-blog">
-                    <span>NEWS & BLOG </span>
-                    <h3 class="text-center">COMMERCIAL BLOG</h3>
-                </div>
+            <div class="areas-title comercial-blog">
+                <span>NEWS & BLOG </span>
+                <h3 class="text-center">COMMERCIAL BLOG</h3>
             </div>
+        </div>
 
-            <div class="mt-4 container">
-                <div class="row gap-2 container">
-                    <div class="col  images">
-                        <img class="property-image  h-100 " src="./images/popular-property/img-5.png" alt="">
-                        <div class="apartment-details">
-                            <p class="">Maverick Apartment Bay View</p>
-                            <p class=" d-flex justify-content-between align-items-center w-100  ">
-                                <span>$120,000 </span>
-                                <span>3Beds </span>
-                                <span>2 Baths </span>
-                                <span>1999sqft </span>
-                                <span class=" rounded-circle bg-light p-1 text-dark"><i
-                                        class="fa-solid fa-eye"></i></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col images">
-                        <img class="property-image h-100 " src="./images/popular-property/img-4.png" alt="">
-
-                        <div class="apartment-details">
-                            <p class="">Apartment Bay View</p>
-                            <p class="d-flex justify-content-between align-items-center w-100  ">
-                                <span>$120,000 </span>
-                                <span>3Beds </span>
-                                <span>2 Baths </span>
-                                <span>1999sqft </span>
-                                <span class=" rounded-circle bg-light p-1 text-dark"><i
-                                        class="fa-solid fa-eye"></i></span>
-                            </p>
-                        </div>
-
+        <div class="mt-4 container">
+            <div class="row gap-2 container">
+                <div class="col  images">
+                    <img class="property-image  h-100 " src="./images/popular-property/img-5.png" alt="">
+                    <div class="apartment-details">
+                        <p class="">Maverick Apartment Bay View</p>
+                        <p class=" d-flex justify-content-between align-items-center w-100  ">
+                            <span>$120,000 </span>
+                            <span>3Beds </span>
+                            <span>2 Baths </span>
+                            <span>1999sqft </span>
+                            <span class=" rounded-circle bg-light p-1 text-dark"><i class="fa-solid fa-eye"></i></span>
+                        </p>
                     </div>
                 </div>
+                <div class="col images">
+                    <img class="property-image h-100 " src="./images/popular-property/img-4.png" alt="">
+
+                    <div class="apartment-details">
+                        <p class="">Apartment Bay View</p>
+                        <p class="d-flex justify-content-between align-items-center w-100  ">
+                            <span>$120,000 </span>
+                            <span>3Beds </span>
+                            <span>2 Baths </span>
+                            <span>1999sqft </span>
+                            <span class=" rounded-circle bg-light p-1 text-dark"><i class="fa-solid fa-eye"></i></span>
+                        </p>
+                    </div>
+
+                </div>
             </div>
+        </div>
 
 
 
