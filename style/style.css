@@ -221,18 +221,14 @@
 }
 
 .detroit-area {
-    top: 50%;
-    left: 29%;
-    position: absolute;
+
     width: 358px;
     margin: auto;
 }
 
 .estate-agents {
-    top: 50%;
-    left: 29%;
-    position: absolute;
-    width: 571px;
+    /* top: 59%; */
+    width: 385px;
     margin: auto;
 
 }
@@ -322,13 +318,6 @@
     max-width: 100%;
 }
 
-/* .icon {
-    max-width: 267px;
-    height: auto;
-    width: 100%;
-    text-align: center;
-} */
-
 .partner-company h1 {
     font-family: Inter;
     font-weight: 600;
@@ -337,11 +326,6 @@
     color: rgba(0, 0, 0, 1);
     padding: 5px;
 }
-
-/* .all-brand {
-    align-items: center;
-    justify-content: center;
-} */
 
 .company-icon {
     height: 60px !important;
@@ -565,9 +549,10 @@
     background-color: rgb(197, 197, 200);
 }
 
-.menu-bar{
+.menu-bar {
     display: none;
 }
+
 
 @media only screen and (max-width: 700px){
     .contact-section{
@@ -616,7 +601,10 @@
     top: 2%;
     left: 5%;
 }
-
+.partner-company{
+    width: 100%;
+    margin: auto;
+}
 .agent{
     margin-top: 2px;
 }
@@ -640,13 +628,34 @@
 
 .estate-agents {
     top: 50%;
-    left: 29%;
-    position: absolute;
-    width: 200px;
+    left: 0%;
+    max-width: 250px;
     margin: auto;
 
 }
 
+.estate-agents h4 {
+    font-size: 30px;
+    line-height: 24.96px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.detroit-area h4  p {
+    font-size: 30px;
+    line-height: 24.96px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.detroit-area p {
+    font-size: 30px;
+    line-height: 24.96px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
 .rent {
  width: 100%;
  margin: auto;
@@ -659,14 +668,14 @@
 } 
 
 
-.info {
+.info{
     background-image: url("/Ellipse\ 4.png");
     background-repeat: no-repeat;
     height: 169px;
     width: 100%;
     margin: auto;
     position: relative;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .info img {
@@ -723,12 +732,18 @@
 .menu{
     display: none;
 }
+
+.menu.active{
+    display: block;
+}
 .menu-btn{
     display: none;
 }
 .menu-bar{
     display: block;
+    color: #fff;
 }
+
 }
 
 
